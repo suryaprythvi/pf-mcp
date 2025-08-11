@@ -1,0 +1,21 @@
+{
+  "name": "mern-mcp-chat-server",
+  "version": "1.0.0",
+  "description": "Express server with MCP-client integration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.4",
+    "dotenv": "^16.3.1",
+    "mcp-use": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
