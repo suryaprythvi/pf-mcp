@@ -1,10 +1,7 @@
-# MERN MCP Chat Application
-
-A modern chat application built with the MERN stack that integrates with Model Context Protocol (MCP) servers to provide intelligent responses.
+# MCP Client Test Application
 
 ## Features
-
-- 🎨 **Impressive Chat Interface**: Modern, responsive UI with Material-UI components
+- 🎨 **Chat Interface**: Modern, responsive UI with Material-UI components
 - 🔄 **Real-time Communication**: WebSocket-based chat using Socket.IO
 - 🤖 **MCP Integration**: Server connects to MCP servers using the mcp-use-ts library
 - 🌙 **Dark Theme**: Beautiful dark theme with gradient backgrounds
@@ -58,7 +55,7 @@ npm install
 **Install server dependencies:**
 ```bash
 cd server
-npm install mcp-use @langchain/openai --legacy-peer-deps
+npm install
 cd ..
 ```
 
@@ -79,8 +76,8 @@ NODE_ENV=development
 OPENAI_API_KEY=your_openai_api_key_here
 
 # MCP Server Configuration
-FILESYSTEM_PATH=/Users/suryaalapati/mcp_examples/
-MAILGUN_SERVER_PATH=/Users/suryaalapati/mcp_examples/mcp_chat/chat_ui/mailgun-mcp-server/src
+FILESYSTEM_PATH=/Path/for/mcp/server/to/access/
+MAILGUN_SERVER_PATH=/path/mailgun-mcp-server/src
 MAILGUN_API_KEY=your_mailgun_api_key_here
 ```
 
