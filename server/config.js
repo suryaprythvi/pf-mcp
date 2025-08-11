@@ -9,7 +9,7 @@ const config = {
         args: [
           "-y",
           "@modelcontextprotocol/server-filesystem",
-          process.env.FILESYSTEM_PATH || "/Users/suryaalapati/mcp_examples/",
+          process.env.FILESYSTEM_PATH,
         ],
       },
       mailgun: {
@@ -23,4 +23,3 @@ const config = {
   };
   
   export default config;
-  

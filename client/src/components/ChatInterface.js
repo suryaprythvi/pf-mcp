@@ -159,9 +159,6 @@ const ChatInterface = () => {
               <Typography variant="h5" gutterBottom>
                 Welcome to MCP Chat
               </Typography>
-              <Typography variant="body1" color="text.secondary">
-                Start a conversation with our AI assistant powered by Model Context Protocol
-              </Typography>
             </Box>
           </Fade>
         )}
